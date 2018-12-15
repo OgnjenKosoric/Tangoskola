@@ -1,0 +1,58 @@
+@media (min-width: 1200px){
+
+
+.logo_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.argentinski_p{
+  font-size: 50px;
+  color: #0E1854;
+  font-style: italic;
+  text-shadow: 0px 0px 4px #c6b300;
+
+}
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+
+  .argentinski_p{
+    font-size: 40px;
+    color: #0E1854;
+    font-style: italic;
+    text-shadow: 0px 0px 4px #c6b300;
+    margin-left: 5%;
+    width: 70%;
+  }
+
+  .logo_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+
+
+  .logo_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .argentinski_p{
+    font-size: 30px;
+    color: #0E1854;
+    font-style: italic;
+    text-shadow: 0px 0px 4px #c6b300;
+    color: black;
+  }
+}

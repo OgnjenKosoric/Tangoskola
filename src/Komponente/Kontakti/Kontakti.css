@@ -1,0 +1,40 @@
+.kontakti_main_div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.div_up {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.div_down{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.kontakt_div{
+  width: 20%;
+  height: 100%;
+}
+
+.kontakt_p{
+  font-size: 30px;
+  color: #0E1854;
+  text-align: left;
+}
+
+.adresa_div{
+  width: 20%;
+  height: 100%;
+}
+
+.google_map_div{
+  width: 60%;
+  height:100%;
+}

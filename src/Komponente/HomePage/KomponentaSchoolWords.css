@@ -1,0 +1,111 @@
+@media (min-width: 1200px){
+.school_wards_div{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0% 0% 18% 0%;
+  padding: 18% 10% 0% 0%;
+}
+
+.school_wards{
+  color: #0E1854;
+  font-style: italic;
+  text-shadow: 0px 0px 4px #c6b300;
+}
+
+.school_wards_1{
+    font-size: 30px;
+}
+
+.school_wards_2{
+    font-size: 27px;
+}
+
+.school_wards_3{
+    font-size: 40px;
+}
+}
+@media (min-width: 768px) and (max-width: 1200px){
+  .school_wards_div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 22% 0 2% 2%;
+  }
+
+  .school_wards{
+    color: #0E1854;
+    font-style: italic;
+    text-shadow: 0px 0px 4px #c6b300;
+  }
+
+  .school_wards_1{
+      font-size: 28px;
+  }
+
+  .school_wards_2{
+      font-size: 25px;
+  }
+
+  .school_wards_3{
+      font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .school_wards_div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 0 10% 8%;
+  }
+
+  .school_wards{
+    color: #0E1854;
+    font-style: italic;
+    text-shadow: 0px 0px 4px #c6b300;
+  }
+
+  .school_wards_1{
+      font-size: 18px;
+  }
+
+  .school_wards_2{
+      font-size: 17px;
+  }
+
+  .school_wards_3{
+      font-size: 28px;
+  }
+}
+
+@media (max-width: 320px) {
+  .school_wards_div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 4% 10% 0%;
+  }
+
+  .school_wards{
+    color: #0E1854;
+    font-style: italic;
+    text-shadow: 0px 0px 4px #c6b300;
+  }
+
+  .school_wards_1{
+      font-size: 15px;
+  }
+
+  .school_wards_2{
+      font-size: 15px;
+  }
+
+  .school_wards_3{
+      font-size: 15px;
+  }
+}
